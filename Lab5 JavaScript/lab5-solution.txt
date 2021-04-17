@@ -1,0 +1,10 @@
+1.  let elem = document.getElementById("container");
+2. let elem1 = document.querySelector("#container");
+3. let elem2 = document.querySelectorAll(".second");
+4. let elem4 = document.querySelectorAll('ol > .third ');
+5. let elem6 = document.querySelector('#container');
+
+		
+elem6.innerText = "Hello Safdar";
+
+6. 

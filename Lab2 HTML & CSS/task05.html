@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <title>Task5</title>
+    <style>
+        #Form
+        {
+            width: 600px;
+            height: 1200px;
+            background-color: rgb(219, 121, 109);
+            padding: 20px;
+            font-size: 25px;
+            padding-top: 30px;
+            position: relative;
+            left: 350px;
+        }
+        #In
+        {
+            border: 3px solid white;
+            background-color: rgb(240, 182, 172);
+            width: 530px;
+            height: 45px;
+            padding: 10px;
+            padding-left: 20px;
+            padding-top: 20px;
+            margin: 10px;
+            
+        }
+        #Label
+        {
+            font-size: 20px;
+        }
+        #tBox
+        {
+            width: 380px;
+            height: 25px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        #tBox1
+        {
+            width: 300px;
+            height: 25px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        #tBox2
+        {
+            width: 330px;
+            height: 25px;
+            border-radius: 5px;
+            font-size: 18px;
+        }
+        #addr
+        {
+            border-radius: 5px; 
+            margin-left: 100px; 
+            font-size: 18px;
+            margin-right: 100px;
+        }
+        #BuyIt
+        {
+            background-color: rgb(117, 114, 113);
+            border-radius: 40px;
+            width: 220px;
+            height: 45px;
+            padding: 10px;
+            padding-left: 20px;
+            padding-top: 10px;
+            margin-top: 25px;
+            text-align: center;
+            font-size: 40px;
+            position: relative;
+            left: 170px;
+        }
+        h1
+        {
+            margin-left: 350px;
+        }
+        
+    </style>
+</head>
+<body>
+
+    <h1>Payment form</h1>
+    <div id="Form">
+
+        <label style="color: rgb(0, 0, 0);">Step 1: Your details</label><br>
+
+        <div id="In">
+            <label>Name</label>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="text" placeholder="First and last name" id="tBox">
+        </div>
+
+        <div id="In">
+            <label>Email</label>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="text" placeholder="example@domain.com" id="tBox">
+        </div >
+
+        <div id="In">
+            <label>Phone</label>
+            &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="text" placeholder="Eg. +92345 000000" id="tBox">
+        </div>
+        
+        <label style="color: rgb(0, 0, 0);">Step 2: Delivery Address</label><br>
+
+        <div id="In" style="height: 110px;">
+            <label style="position: relative; top: -10px;">Address</label>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; 
+            <br>
+            <textarea id="address" name="address" rows="4" cols="70" id="addr"></textarea>
+        </div>
+
+        <div id="In">
+            <label>Post Code</label>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="text" id="tBox2">
+        </div>
+
+        <div id="In">
+            <label>Country</label>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="text" id="tBox2">
+        </div>
+
+        <label style="color: rgb(0, 0, 0);">Step 3: Card Details</label><br>
+
+        <div id="In" style="height: 65px;">
+            <label>Card type</label><br>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="radio" name="gender" value="VISA">
+            <label id="Label">VISA</label>
+            <input type="radio" name="gender" value="Debit">
+            <label id="Label">Debit</label>
+            <input type="radio" name="gender" value="Mastercard">
+            <label id="Label">Mastercard</label>
+        </div> 
+
+        <div id="In">
+            <label>Card number</label>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="text" id="tBox1">
+        </div>
+
+        <div id="In">
+            <label>Security code</label>
+            &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="text" id="tBox1">
+        </div>
+
+        <div id="In">
+            <label>Name on card</label>
+            &nbsp; &nbsp; &nbsp; &nbsp;
+            <input type="text" placeholder="Exact name as on the card" id="tBox1">
+        </div>
+
+        <div id="BuyIt">
+            <label>Buy It!</label>
+        </div>
+
+    </div>
+
+</body>
+</html>
