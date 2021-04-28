@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Task 18</title>
+</head>
+<body>
+    <script>
+        function vowelCount(String) 
+        {
+            let vowel_arr= []
+            var vowel_list = 'aeiouAEIOU';
+            let vowel=[];
+            var vcount = 0;
+            for(let i=0; i<String.length; i++)
+            {
+                console.log(String[i])
+                vowel_arr.push(String[i])
+                if(String[i]=="a" || String[i]=="e" || String[i]=="i" || String[i]=="o" || String[i]=="u")
+                {
+                    let temp = String[i]
+                    
+                    vowel[i] = String[i]
+                    console.log('vowel = '+String[i]);
+                }
+            }
+            // var unique = vowel_arr.filter((v, i, a) => a.indexOf(v) === i);
+
+            // console.log(unique);
+            
+        }
+        vowelCount('increddile');
+    </script>
+</body>
+</html>
